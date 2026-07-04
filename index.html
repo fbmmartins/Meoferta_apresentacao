@@ -4,21 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MeOferta | Apresentacao</title>
-  <link rel="stylesheet" href="./styles.css?v=20260704-10">
+  <link rel="stylesheet" href="./styles.css?v=20260704-11">
 </head>
 <body>
-  <div class="presentation">
+  <button id="screenBtn" class="fullscreen-btn" type="button">Tela cheia</button>
+  <div class="presentation" id="presentationRoot">
     <aside class="sidebar">
-      <div class="brand"><span>M</span><div><strong>MeOferta</strong><small>Apresentacao</small></div></div>
       <nav id="slideMenu" class="slide-menu"></nav>
-      <button id="screenBtn" class="secondary">Tela cheia</button>
     </aside>
     <main class="stage">
-      <header class="stage-header"><strong id="slideCounter">AP01 / AP13</strong><div class="progress"><i id="progressBar"></i></div></header>
-      <section class="slide-frame"><button id="prevBtn">Anterior</button><img id="slideImage" src="./slides/ap01.png" alt="AP01"><button id="nextBtn">Proximo</button></section>
-      <footer class="stage-footer"><button id="prevFooterBtn">Anterior</button><span id="slideName">ap01.png</span><button id="nextFooterBtn">Proximo</button></footer>
+      <section class="slide-frame"><img id="slideImage" src="./slides/ap01.png" alt="AP01"></section>
     </main>
   </div>
-  <script src="./script.js?v=20260704-10"></script>
+  <script src="./script.js?v=20260704-11"></script>
 </body>
 </html>
